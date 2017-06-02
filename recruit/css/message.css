@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+/* =============================================================================
+   message
+   ========================================================================== */
+/* message_section */
+.message_section {
+  width: 900px;
+  margin: 0 auto;
+  padding: 70px 80px;
+  background: #fff url(../images/bg_message.png) repeat left top;
+}
+.h4_message {
+  width: 740px;
+  margin: 0;
+  font-size: 24px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.message_section p {
+  font-size: 16px;
+  line-height: 2;
+  padding-bottom: 45px;
+  text-align: left;
+}
+.message_section p.message_section_name {
+  padding-bottom: 0;
+  text-align: right;
+}
+
+
+/* senior_message */
+.senior_message {
+  width: 960px;
+  margin: 0 auto 40px;
+  padding: 30px;
+  background: #f6f9fb;
+}
+.senior_message:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.message_photo {
+  width: 150px;
+  float: left;
+}
+.message_name {
+  width: 720px;
+  float: right;
+}
+
+.message_no {
+  display: inline-block;
+  border-bottom: solid 3px #cd0000;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: .5px;
+  color: #cd0000;
+  line-height: 1;
+  font-weight: bold;
+}
+.message_no span {
+  padding-right: 5px;
+  font-size: 13px;
+}
+.message_no span + span {
+  padding-right: 0;
+  font-size: 24px;
+}
+
+.message_name dl {
+  margin-bottom: 24px;
+  line-height: 1;
+}
+.message_name dt {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+.message_name dd {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+
+/* senior_interview */
+.l-heading__interview {
+  background: transparent url(../images/bg_heading_message.png) no-repeat left bottom;
+  width: 960px;
+  margin: 0 auto 15px;
+  padding-bottom: 16px;
+  color: #cd0000;
+}
+.l-heading__interview h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.senior_interview {
+  width: 960px;
+  margin: 0 auto 10px;
+}
+.senior_interview dl {
+  margin-bottom: 50px;
+}
+.senior_interview dt {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.senior_interview dd {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
